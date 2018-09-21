@@ -1,0 +1,8 @@
+---
+  apiVersion: helm.integrations.flux.weave.works/v1alpha2
+  kind: FluxHelmRelease
+  metadata:
+    name: jenkins
+    namespace: test
+  spec:
+    chartGitPath: jenkins
