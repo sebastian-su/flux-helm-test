@@ -1,10 +1,10 @@
 ---
-  apiVersion: helm.integrations.flux.weave.works/v1alpha2
-  kind: FluxHelmRelease
-  metadata:
-    name: jenkins
-    namespace: test
-    annotations:
-      flux.weave.works/automated: "true"
-  spec:
-    chartGitPath: jenkins
+apiVersion: helm.integrations.flux.weave.works/v1alpha2
+kind: FluxHelmRelease
+metadata:
+  name: jenkins
+  namespace: test
+  annotations:
+    flux.weave.works/automated: "true"
+spec:
+  chartGitPath: jenkins
