@@ -4,5 +4,7 @@
   metadata:
     name: jenkins
     namespace: test
+    annotations:
+      flux.weave.works/automated: "true"
   spec:
     chartGitPath: jenkins
