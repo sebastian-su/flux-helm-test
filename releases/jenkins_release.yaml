@@ -8,3 +8,5 @@ metadata:
     flux.weave.works/automated: "true"
 spec:
   chartGitPath: jenkins
+  values:
+    Master.ServiceType: NodePort
